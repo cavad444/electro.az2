@@ -1,0 +1,38 @@
+#min-max-price {
+    .container{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+  .product-sort {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 400px;
+    border: solid black 2px;
+    border-radius: 100px;
+  }
+  .price-input{
+    width: 150px;
+    border-radius: 100px;
+    text-align: center;
+    
+   
+
+  }
+  .price-button{
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+  }
+
+}
+.price-input::placeholder{
+  text-align: center;
+}
+
+
+

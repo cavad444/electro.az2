@@ -1,0 +1,81 @@
+.info-header{
+    margin: 0 auto;
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+
+    .add-to-cart{
+        margin-right: 50px;
+    }
+    .search{
+        margin-top: 60px;
+        input{
+            width: 500px;
+            height: 50px;
+            border-radius: 100px;
+            text-align: center;
+           
+        }
+        input::placeholder{
+            text-align: center;
+        }
+        
+    }
+    .sign-in-add{
+        margin-top: 70px;
+        display: flex;
+        .sign-in{
+            margin-right: 20px;
+
+        }
+    }
+    .sign-in:hover{
+        color: red;
+        cursor: pointer;
+
+    }
+    .add-to-cart:hover{
+        color: red;
+        cursor: pointer;
+    }
+    
+
+    
+}
+
+.sign-in-add{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar{
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+    align-items: center;
+    padding: 5px;
+    font-size: 21px;
+}
+.search{
+    display: flex;
+    align-items: center;  
+    position: relative; 
+ }
+ .search-icon{
+    font-size: 21px;
+    align-items: center;
+    position: absolute;
+    right:10px;
+ }
+ .sign-in, .add-to-cart {
+    transition: all 0.3s;
+    cursor: pointer;
+ }
+ .sign-in:hover, .add-to-cart:hover {
+    color: red;
+ }
+ 
+// Header section ends

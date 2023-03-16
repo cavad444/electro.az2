@@ -1,0 +1,170 @@
+#info-header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#info-header .add-to-cart {
+  margin-right: 50px;
+}
+#info-header .search {
+  margin-top: 60px;
+}
+#info-header .search input {
+  width: 500px;
+  height: 50px;
+  border-radius: 100px;
+  text-align: center;
+}
+#info-header .search input::-webkit-input-placeholder {
+  text-align: center;
+}
+#info-header .search input::-moz-placeholder {
+  text-align: center;
+}
+#info-header .search input:-ms-input-placeholder {
+  text-align: center;
+}
+#info-header .search input::-ms-input-placeholder {
+  text-align: center;
+}
+#info-header .search input::placeholder {
+  text-align: center;
+}
+#info-header .sign-in-add {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#info-header .sign-in-add .sign-in {
+  margin-right: 20px;
+}
+#info-header .sign-in:hover {
+  color: red;
+  cursor: pointer;
+}
+#info-header .add-to-cart:hover {
+  color: red;
+  cursor: pointer;
+}
+
+body {
+  height: 10000px;
+}
+
+#min-max-price .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+#min-max-price .product-sort {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  width: 400px;
+  border: solid black 2px;
+  border-radius: 100px;
+}
+#min-max-price .price-input {
+  width: 150px;
+  border-radius: 100px;
+  text-align: center;
+}
+#min-max-price .price-button {
+  border-radius: 100px;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
+.price-input::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.price-input::-moz-placeholder {
+  text-align: center;
+}
+
+.price-input:-ms-input-placeholder {
+  text-align: center;
+}
+
+.price-input::-ms-input-placeholder {
+  text-align: center;
+}
+
+.price-input::placeholder {
+  text-align: center;
+}
+
+.price-input::-webkit-outer-spin-button,
+.price-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#products .container {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#products .product {
+  border: solid black 1px;
+  margin-top: 30px;
+  border-radius: 50px;
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#products .product span {
+  font-weight: 500;
+}
+#products .buy-product {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+}
+#products img {
+  height: 200px;
+  width: 200px;
+}
+#products .product-property {
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+
+#info-header .product-unvisible{
+display: none;
+}
